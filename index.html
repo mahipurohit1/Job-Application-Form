@@ -5,9 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Application Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Job</h1>
+    <div class="container">
+      <h1 class="primary-heading">Job Application Form</h1>
+      <form action="#">
+        <div class="firstNameDiv">
+          <label for="firstName">FirstName</label>
+          <input type="text" placeholder="mahipal" />
+        </div>
+        <div class="lastNameDiv">
+          <label for="lastName">LastName</label>
+          <input type="text" placeholder="purohit" />
+        </div>
+        <div class="emailDiv">
+          <label for="email">Email</label>
+          <input type="email" placeholder="exmaple@gmail.com" />
+        </div>
+        <div class="jobRoleDiv">
+          <label for="jobrole">JobRole</label>
+          <select name="jobrole" id="">
+            <option value="">select your profile</option>
+            <option value="frontEnd Developer">frontEnd Developer</option>
+            <option value="backEnd Developer">backEnd Developer</option>
+            <option value="python Developer">python Developer</option>
+            <option value="java Developer">java Developer</option>
+          </select>
+        </div>
+        <div class="addressDiv">
+          <label for="address">address</label>
+          <textarea name="add" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="cityDiv">
+          <label for="city">city</label>
+          <input type="text" placeholder="delhi" />
+        </div>
+        <div class="pincodeDiv">
+          <label for="pincode">pincode</label>
+          <input type="number" placeholder="425103" />
+        </div>
+        <div class="dateDiv">
+          <label for="date">date</label> <input type="date" />
+        </div>
+        <div class="cvDiv">
+          <label for="cv">upload CV</label>
+          <input type="file" name="" id="" />
+        </div>
+        <div class="btn"><input type="submit" value="Submit" /></div>
+      </form>
+    </div>
   </body>
 </html>
