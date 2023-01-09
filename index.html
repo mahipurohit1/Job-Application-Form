@@ -14,18 +14,18 @@
   <body>
     <div class="container">
       <h1 class="primary-heading">Job Application Form</h1>
-      <form action="#" class="form">
+      <form Netlify class="form" name="form">
         <div class="firstNameDiv flex">
           <label for="firstName">First Name</label>
-          <input type="text" placeholder="mahipal" />
+          <input type="text" name="firstName" placeholder="mahipal" />
         </div>
         <div class="lastNameDiv flex">
           <label for="lastName">Last Name</label>
-          <input type="text" placeholder="purohit" />
+          <input type="text" name="lastName" placeholder="purohit" />
         </div>
         <div class="emailDiv flex">
           <label for="email">Email</label>
-          <input type="email" placeholder="exmaple@gmail.com" />
+          <input type="email" name="email" placeholder="exmaple@gmail.com" />
         </div>
         <div class="jobRoleDiv flex">
           <label for="jobrole">Job Role</label>
@@ -39,25 +39,25 @@
         </div>
         <div class="addressDiv flex">
           <label for="address">Address</label>
-          <textarea name="add" id="" cols="30" rows="3"></textarea>
+          <textarea name="address" id="" cols="30" rows="3"></textarea>
         </div>
         <div class="cityDiv flex">
           <label for="city">City</label>
-          <input type="text" placeholder="delhi" />
+          <input type="text" name="city" placeholder="delhi" />
         </div>
         <div class="pincodeDiv flex">
           <label for="pincode">Pincode</label>
-          <input type="number" placeholder="425103" />
+          <input type="number" name="pincode" placeholder="425103" />
         </div>
         <div class="dateDiv flex">
-          <label for="date">Date</label> <input type="date" />
+          <label for="date">Date</label> <input type="date" name="date" />
         </div>
         <div class="cvDiv flex">
           <label for="cv">Upload CV</label>
-          <input type="file" name="" id="" />
+          <input type="file" name="cv" id="" />
         </div>
         <div class="btn-div">
-          <input class="btn" type="submit" value="Submit" />
+          <input class="btn" type="submit" value="Submit" name="submit" />
         </div>
       </form>
     </div>
